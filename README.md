@@ -1,4 +1,4 @@
-# Proyecto para reforzar TypeScript - ECMAScript 20XX
+# Pasos para ejecutar este proyecto
 
 * Lo primero que debemos de hacer después de descargar el código es ejecutar el comando:
 
