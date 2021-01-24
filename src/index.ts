@@ -2,4 +2,4 @@
     ===== Código de TypeScript =====
 */
 
-console.log('Diviertete!!');
+console.log('Fin de la seccion!');
