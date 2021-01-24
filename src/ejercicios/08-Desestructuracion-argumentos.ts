@@ -1,7 +1,7 @@
 /*
     ===== Código de TypeScript =====
 */
-interface Producto {
+export interface Producto {
     desc: string,
     precio: number
 }
@@ -35,7 +35,7 @@ function calcularISV2(productos: Producto[]): number {
 }
 
 //Funcion tradicional - aplicando desestructuración de argumentos y retornando un array
-function calcularISV3(productos: Producto[]): [number, number] {
+export function calcularISV3(productos: Producto[]): [number, number] {
     let total = 0;
     productos.forEach(({ precio }) => {
         total += precio;
